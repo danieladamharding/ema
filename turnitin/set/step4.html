@@ -31,9 +31,9 @@
             <div class="card-header"> Step 4 - Optional Settings </div>
                 <img class="card-img img-fluid spongebob" src="https://drive.google.com/uc?export=view&id=0BznPf6nOHLByMHA0VG52Rk54T3c">
             <div class="card-block">
-                <div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Although Turnitin defines these settings as <strong>'Optional'</strong>, they are essential and should always be reviewed.</div>
                     <ul>
-                        <li><strong>Enter special instructions: </strong> This should include helpful information relating to the assignment. Details entered here will appear underneath the Turnitin submission link.
+                        <div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Although Turnitin defines these settings as <strong>'Optional'</strong>, they are essential and should always be reviewed.</div>
+                        <li><strong>Enter special instructions: </strong> This should include helpful information relating to the assignment. Details entered here will appear to students underneath the Turnitin submission link.
                         <p><div class="alert alert-info" role="alert"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span><i class="fa fa-info-circle" aria-hidden="true"></i> If marking anonymously, advising students to include their student ID as part of their assignment title will help to attribute marks when transfering them to the students record system. 
                         </p>
                         </div></li>
@@ -64,9 +64,9 @@
                         </div>
                         </li>
                         <hr>
-                        <li><strong><a data-toggle="modal" href="#modalsearchoptions">Search options:</a></strong> Select all checkboxes.</li>
+                        <li><strong><a data-toggle="modal" href="#modalsearchoptions" class="text-info">Search options:</a></strong> Select all checkboxes.</li>
                         <hr>
-                        <li><strong>Attach a <a data-toggle="modal" href="#modalrubric">Rubric</a>/form to this assignment:</strong> A rubric may be added here, although you may wish to apply it later, prior to marking.</li>
+                        <li><strong>Attach a <a data-toggle="modal" href="#modalrubric" class="text-info">Rubric/form</a> to this assignment:</strong> A rubric may be added here, although you may wish to apply it later, prior to marking.</li>
                         <hr>
                         <li><strong>Click the Submit button.</strong></li>
                     </ul>
@@ -94,15 +94,16 @@
                         <h4 class="modal-title">Search Options</h4>
                     </div>
                 <div class="modal-body">
-                    <p>The search options setting allowed the instructor to select which Turnitin repositories students' submissions will be checked against when processing Originality Reports for papers.</p>
+                    <p>The Search Options setting allows the instructor to select which Turnitin repositories students' submissions are checked against when processing Originality Reports.</p>
+                    <img class="card-img img-fluid img-thumbnail m-x-auto d-block" src="https://drive.google.com/uc?export=view&id=0BznPf6nOHLByTW40TTFFUWhtc0k">
+                    <br>
                     <p>The similarity index percentage may decrease if a repository option is deselected.</p>
-                    <p><strong>Search Options:</strong><br>
-                        <ul>
-                          <li>Student paper repository</li>
-                          <li>Institution paper repository</li>
-                          <li>Current and archived internet</li>
-                          <li>Periodicals, journals, & publications</li>
-                        </ul>
+                    <ul>
+                        <li><strong>Student paper repository</strong> - Contains student papers from institutions using Turnitin from across the UK and internationally.</li>
+                        <li><strong>Institution paper repository</strong> - Only contains papers submitted as part of Keele University programmes.</li>
+                        <li><strong>Current and archived internet</strong> - As described, Turnitin searches live internet sites as well as an archive of 60 billion indexed web pages.</li>
+                        <li><strong>Periodicals, journals, & publications</strong> - Papers are matched against over 150 million academic documents, including journals, books and periodicals. </li>
+                    </ul>
                     </p>
                 </div>
                 <div class="modal-footer">
@@ -117,13 +118,13 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Rubric</h4>
+                        <h4 class="modal-title">What is a rubric?</h4>
                     </div>
                     <div class="modal-body">
-                        <p>A rubric is a marking tool that divides the marking scheme into sections.</p>
-                        <p>Rubrics are split into rows (criteria) and columns (the marks).</p>
-                        <p>Staff members click on each section within the Rubric to select the appriopriate mark for each criteria.</p>
-                        <p>The Rubric will then calculate the students overall grade based on the selections.</p>
+                        <p>A rubric is a method of dividing the marking scheme into sections.</p>
+                        <p>Rubrics are split into rows (the criteria) and columns (the value).</p>
+                        <p>Tutors can click on each of the rubric's sections to award an appriopriate value for each criteria.</p>
+                        <p>If using numerical values, the rubric can also be used to calculate an overall grade based on the selections.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
