@@ -7,18 +7,23 @@
         <!-- Font Awesome icons -->
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
         <style>
-        .pencilicon {
-            display: inline;
+            .pencilicon {
+                display: inline;
             }
              
+            .screenshotmain {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
             .screenshot {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
+                margin-left: auto;
+                margin-right: auto;
             }
-             
+                             
             .card-img {
-            border-radius: 0;
+                border-radius: 0;
             }
         </style>
     </head>
@@ -29,68 +34,53 @@
         </div>
         
         <div class="card" id="step1">
-            <div class="card-header">Step 1 - Retrieving the iPad Access Code from Feedback Studio</div>
+            <div class="card-header">Step 1 - Adding Dropboxes to the Turnitin for iOS App</div>
                 <div class="card-block">
                     <ul>
                         <li>From a desktop PC or Mac, sign in to the <a href="http://students.keele.ac.uk/" target="_blank">Keele Learning Environment (KLE)</a> and navigate to the module which contains the Turnitin inbox you wish to mark student submissions for. If you are unsure how to do this, please see the guide at <base target="_parent" /><a href="https://www.keele.ac.uk/turnitin/accessingsubmissions">https://www.keele.ac.uk/turnitin/accessingsubmissions</a>.</li>
                         <hr>
                         <li>From the Turnitin inbox, open any submission using the pencil icon (<img src="../../img/turnitin/grademark_pencil.png" class="pencilicon" alt="Pencil icon">).</li>
                         <hr>
-                        <li>On the right hand side of the document viewer, click the Information icon (<img src="../../img/turnitin/info_icon.png" class="pencilicon" alt="Info icon">) and select <kbd>Generate Code</kbd>. 
+                        <li>On the right hand side of the document viewer, click the Information icon (<img src="../../img/turnitin/info_icon.png" class="pencilicon" alt="Info icon">). Here, you'll find the <strong>Feedback Studio for iOS</strong> section. 
                         <br>
                         <hr>
                         </li>
-                        <li>The system will now generate a unique 16 digit code. Please keep a note of this code as it will be required for you to access all assignments on your iPad.</li>
+                        <li>Enter and confirm your email address and select the <kbd>Email Me</kbd> button.</li>
                         <hr>
-                        <img class="img-fluid card-img screenshot" style="padding-bottom: 10px" src="../../img/turnitin/fs_toolbar.png" width="1930" height="1160" alt=""/>
-                        <img class="img-fluid card-img screenshot" style="padding-bottom: 10px" src="../../img/turnitin/fs_generate_code.png" width="402" height="567" alt=""/>
-                        <img class="img-fluid card-img screenshot" style="text-align: left" src="../../img/turnitin/fs_access_code.png" width="402" height="567" alt=""/>
+                        <li>After checking that you have the most up-to-date version of the Feedback Studio for iOS app installed, access your email account on the same iPad  you intend to use for marking.</li>
+                        <hr>
+                        <li>From the TurnitinUK email, select the <kbd>Add Class</kbd> button. This will take you to your class inside the Turnitin app.</li>
+                        <hr>
+                        <img class="img-fluid card-img screenshotmain" style="padding-bottom: 10px" src="../../img/turnitin/fs_mobile1.png" alt="Turnitin iOS first step"/>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img class="img-fluid card-img screenshot" style="padding-bottom: 10px" src="../../img/turnitin/fs_mobile2.png" alt="Turnitin iOS second step"/>
+                            </div>
+                            <div class="col-sm-6">
+                                <img class="img-fluid card-img screenshot" style="text-align: left" src="../../img/turnitin/fs_mobile3.png" alt="Turnitin iOS third step"/>
+                            </div>
+                        </div>
                     </ul>
                 </div>
             </div>
+        
+        
         <div class="card" id="step2">
-            <div class="card-header">Step 2 - Signing into the Turnitin Feedback Studio App</div>
-                <div class="card-block">
-                    <ul>
-                        <li>If you have not already done so, download the Turnitin Feedback Studio app from the<a href="https://itunes.apple.com/gb/app/turnitin-feedback-studio/id657602524?mt=8" target="_blank"> Apple iTunes App Store.</a></li>
-                        <hr>
-                        <li>Launch the Feedback Studio app.</li>
-                        <hr>
-                        <li>Tap the <kbd>Add Class with Access Code</kbd> button and enter the 16 characters generated from the KLE (ensuring the code has no spaces).</li>
-                        <hr>
-                        <li>Tap <kbd>Add</kbd>.</li>
-                        <hr>
-                        <img class="img-fluid card-img screenshot" style="padding-bottom: 10px" src="../../img/turnitin/fs_add_access_code.png" width="2048" height="2732" alt=""/>
-                        <img class="img-fluid card-img screenshot" src="../../img/turnitin/fs_ipad_code.png" width="2048" height="2732" alt=""/>
-                    </ul>
-                </div>
-        </div>
-        <div class="card" id="step3">
-            <div class="card-header">Step 3 - Module Selection</div>
-                <div class="card-block">
-                    <ul>
-                        <li>You will see a list of KLE modules for which you are enrolled.</li>
-                        <hr>
-                        <li>Tap the required module from the <kbd>Classes</kbd> list.</li>
-                        <hr>
-                        <img class="img-fluid card-img screenshot" src="../../img/turnitin/ipad_module_selection.png" width="2048" height="2732" alt=""/>
-                    </ul>
-                </div>
-        </div>
-        <div class="card" id="step4">
-            <div class="card-header">Step 4 - Synchronising with Feedback Studio</div>
+            <div class="card-header">Step 2 - Synchronising Assignments</div>
                 <div class="card-block">
                     <ul>
                         <div class="alert alert-info" role="alert"> 
-                            <i class="fa fa-info-circle" aria-hidden="true"></i> It is recommended that submissions are synchronised. This retrieves the most up-to-date information from Turnitin.
+                            <i class="fa fa-info-circle" aria-hidden="true"></i> It is recommended that all submissions are downloaded before starting to mark. This retrieves the most up-to-date assignment information from Turnitin.
                         </div>
-                        <li>Select the required assignment.</li>
+                        <li>If you have multiple dropboxes added to the Turnitin app, select the required assignment.</li>
                         <hr>
                         <li>To synchronise the dropbox, tap the <kbd>Information</kbd> icon and select <kbd>Download All</kbd>.</li>
                         <hr>
                         <li>Assignments will now reside on the iPad, with the app interface resembling the desktop inbox. This allows tutors to mark offline where an internet connection is not available.</li>
                         <hr>
-                        <img class="img-fluid card-img screenshot" src="../../img/turnitin/ipad_sync.png" width="2048" height="2732" alt=""/>
+                        <li>Changes you make via the app will sync at 5 minute intervals and requires an internet connection. If your iPad goes offline, the Feedback Studio app will sync as soon as a working connection is found. Syncing can also be triggered manually from the main navigation menu.</li>
+                        <hr>
+                        <img class="img-fluid card-img screenshotmain" src="../../img/turnitin/ipad_sync.png" width="2048" height="2732" alt=""/>
                     </ul>
                 </div>
         </div>
